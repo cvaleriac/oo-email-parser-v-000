@@ -6,9 +6,8 @@
 class EmailParser
 attr_accessor :name, :cvs_email
 
-def parse
   def initialize
   @cvs_email = cvs_email
   end
-  end
+
 end
