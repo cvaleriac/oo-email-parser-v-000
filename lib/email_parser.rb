@@ -10,4 +10,5 @@ def parse
   def initialize
   @cvs_email = cvs_email
   end
+  end
 end
