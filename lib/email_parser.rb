@@ -23,3 +23,4 @@ attr_accessor :name, :csv_email
 end
 
 end
+end
