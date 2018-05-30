@@ -4,14 +4,13 @@
 # or whitespace (' ').
 
 class EmailParser
-attr_accessor :email
-def parse
-  rows = csv.split("\n")
-  email = rows.collect do |row|
-    data = row.split(", ", " ")
+attr_accessor : name, cvs_email
 
-    email = self.new
-    parse
+def parse
+  def initialize
+  @cvs_email = cvs_email
   end
-end
-end
+end 
+  
+  
+  
